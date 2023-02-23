@@ -27,5 +27,17 @@ namespace WebApiMongoDB.Controllers
 
             return produto;
         }
+        [HttpPut]
+        public async Task<Produto> PutProduto(string id,Produto produto)
+        {
+            await _produtoServices.UpdateAsync(id, produto);
+
+            return produto;
+        }
+        [HttpDelete]
+        public async void DeleteProduto(string id)
+        {
+            await _produtoServices.DeleteAsync(id);
+        }
     }
 }
