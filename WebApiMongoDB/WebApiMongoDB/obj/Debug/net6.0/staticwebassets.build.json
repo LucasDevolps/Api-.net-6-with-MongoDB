@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Aen7zG4xLFQlcwrEFLK5qAX/lDn6Bl8M2j8frdx8CFQ=",
+  "Source": "WebApiMongoDB",
+  "BasePath": "_content/WebApiMongoDB",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
